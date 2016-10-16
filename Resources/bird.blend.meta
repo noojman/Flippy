@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 47e45750a8ff9624687d408cc87e98a1
+timeCreated: 1440108808
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: body
+    100006: body_0
+    100008: body_MeshPart0
+    100010: body_MeshPart1
+    100012: foot_left
+    100014: foot_right
+    100016: head
+    100018: leg_left
+    100020: leg_right
+    100022: pelvis_left
+    100024: pelvis_right
+    100026: shoulder_left
+    100028: shoulder_right
+    100030: wing_left
+    100032: wing_right
+    100034: bird
+    400000: Armature
+    400002: //RootNode
+    400004: body
+    400006: body_0
+    400008: body_MeshPart0
+    400010: body_MeshPart1
+    400012: foot_left
+    400014: foot_right
+    400016: head
+    400018: leg_left
+    400020: leg_right
+    400022: pelvis_left
+    400024: pelvis_right
+    400026: shoulder_left
+    400028: shoulder_right
+    400030: wing_left
+    400032: wing_right
+    400034: bird
+    2300000: bird
+    3300000: bird
+    4300000: body_MeshPart0
+    4300002: body_MeshPart1
+    4300004: body
+    4300006: bird
+    7400000: Default Take
+    7400002: Bump
+    7400004: Hop
+    7400006: Idle
+    7400008: Trip
+    9500000: //RootNode
+    13700000: body_MeshPart0
+    13700002: body_MeshPart1
+    13700004: body
+    13700006: bird
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/body
+        weight: 1
+      - path: Armature/body/pelvis_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/body/pelvis_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right/foot_right
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shoulder_left
+        weight: 1
+      - path: Armature/shoulder_left/wing_left
+        weight: 1
+      - path: Armature/shoulder_right
+        weight: 1
+      - path: Armature/shoulder_right/wing_right
+        weight: 1
+      - path: bird
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bump
+      takeName: Bump
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/body
+        weight: 1
+      - path: Armature/body/pelvis_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/body/pelvis_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right/foot_right
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shoulder_left
+        weight: 1
+      - path: Armature/shoulder_left/wing_left
+        weight: 1
+      - path: Armature/shoulder_right
+        weight: 1
+      - path: Armature/shoulder_right/wing_right
+        weight: 1
+      - path: bird
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hop
+      takeName: Hop
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/body
+        weight: 1
+      - path: Armature/body/pelvis_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/body/pelvis_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right/foot_right
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shoulder_left
+        weight: 1
+      - path: Armature/shoulder_left/wing_left
+        weight: 1
+      - path: Armature/shoulder_right
+        weight: 1
+      - path: Armature/shoulder_right/wing_right
+        weight: 1
+      - path: bird
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 699
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/body
+        weight: 1
+      - path: Armature/body/pelvis_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/body/pelvis_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right/foot_right
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shoulder_left
+        weight: 1
+      - path: Armature/shoulder_left/wing_left
+        weight: 1
+      - path: Armature/shoulder_right
+        weight: 1
+      - path: Armature/shoulder_right/wing_right
+        weight: 1
+      - path: bird
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Trip
+      takeName: Trip
+      firstFrame: -1
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/body
+        weight: 1
+      - path: Armature/body/pelvis_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left
+        weight: 1
+      - path: Armature/body/pelvis_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/body/pelvis_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right
+        weight: 1
+      - path: Armature/body/pelvis_right/leg_right/foot_right
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shoulder_left
+        weight: 1
+      - path: Armature/shoulder_left/wing_left
+        weight: 1
+      - path: Armature/shoulder_right
+        weight: 1
+      - path: Armature/shoulder_right/wing_right
+        weight: 1
+      - path: bird
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
